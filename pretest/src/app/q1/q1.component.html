@@ -1,0 +1,18 @@
+
+    <body>
+      
+      <div class="container">
+        <div class="box1">
+          <input type="text" style="width: 70px;">
+        </div>
+        <div class="box2">
+          <select 
+          (change)="selectFunction(id)">
+            <option *ngFor="let i of options" value="{{i}}">{{i}}</option>
+            </select>
+        </div>
+        <div class="box3">TRUE</div>    
+      </div>
+    
+      
+    </body>

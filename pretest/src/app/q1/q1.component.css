@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .full-height {
+    height: 100%;
+    background: yellow;
+  }
+  .container{
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+  
+  }
+  .box1{
+      border: 1px solid black;
+      width: 200px;
+  }
+  .box2{
+      border: 1px solid black;
+      width: -webkit-fill-available;
+  }
+  .box3{
+      border: 1px solid black;
+      width: 300px;
+  }/* You can add global styles to this file, and also import other style files */
